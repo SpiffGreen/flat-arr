@@ -1,0 +1,19 @@
+{
+  "name": "flattenarray",
+  "version": "0.0.0",
+  "description": "Flatten an array of arrays into one or more. It flexible enough that you can dictate the maximum level it unveils.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpiffGreen/flatten-array.git"
+  },
+  "author": "Spiff Jekey-Green",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpiffGreen/flatten-array/issues"
+  },
+  "homepage": "https://github.com/SpiffGreen/flatten-array#readme"
+}
