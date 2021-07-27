@@ -1,5 +1,5 @@
 ## FlattenArray
-Flatten an array of arrays into one or more. It flexible enough that you can dictate the maximum level it unveils.
+Flatten an array of arrays into one or more. It flexible enough that you can dictate the maximum depth it unveils.
 
 ### Example
 ```js

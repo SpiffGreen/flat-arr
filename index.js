@@ -1,19 +1,19 @@
 /**
  * @description A helper function to flatten array
  * @param {Array} arr Array to be flattened
- * @param {Number} level The number of levels to unveil
+ * @param {Number} depth The number of depths to unveil
  * @returns {Array} A flattened array  
  */
-function flattenArr(arr, level = null) {
+function flattenArr(arr, depth = null) {
     const result = [];
     arr.forEach(i => {
         if(!Array.isArray(i)) {
             result.push(i);
         } else {
-            if(level) {
-                result.push(...flattenArr(i, level - 1));
+            if(depth) {
+                result.push(...flattenArr(i, depth - 1));
             } else {
-                if(level === null) {
+                if(depth === null) {
                     result.push(...flattenArr(i));
                 } else {
                     result.push(i);
