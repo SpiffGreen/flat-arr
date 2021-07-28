@@ -1,6 +1,17 @@
 ## FlattenArray
 Flatten an array of arrays into one or more. It flexible enough that you can dictate the maximum depth it unveils.
 
+### Installation
+In using npm in your project, run:
+```sh
+$ npm install flat-arr --save
+```
+
+Include the module to use
+```js
+const flatArr = require("flat-arr");
+```
+
 ### Example
 ```js
 const arr = [
@@ -29,6 +40,13 @@ console.log(flattenArr(arr));
   15, 16, 17, 18
 ] */
 ```
+
+### Manual Release Steps
+* Increment the "version" attribute of package.json
+* Commit with the message "Release version x.x.x"
+* Create version tag in git
+* Create a github release
+* Release on npm
 
 ### Author
 Spiff Jekey-Green

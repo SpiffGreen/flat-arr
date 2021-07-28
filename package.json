@@ -1,5 +1,5 @@
 {
-  "name": "flattenarray",
+  "name": "flat-arr",
   "version": "0.0.0",
   "description": "Flatten an array of arrays into one or more. It flexible enough that you can dictate the maximum depth it unveils.",
   "main": "index.js",
